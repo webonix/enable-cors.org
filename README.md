@@ -2,6 +2,10 @@
 
 This is the source code and input-collection place for [enable-cors.org](http://enable-cors.org). Ask [Monsur](https://github.com/monsur) or [Michael](https://github.com/mhausenblas) if you have any questions.
 
+## Contribute
+
+enable-cors.org is published using [GitHub Pages](http://pages.github.com/). If you'd like to make edits to this site, please do so in the [gh-pages](https://github.com/mhausenblas/enable-cors.org/tree/gh-pages) branch.
+
 ## Feedback
 
 If you have a new recipe for CORS deployment, or a library enabling CORS, or maybe want to report a new site or service that supports CORS, please raise an [issue](https://github.com/mhausenblas/enable-cors.org/issues) and we'll take it from there.
