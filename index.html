@@ -50,7 +50,7 @@
 		<a id="how"></a><h2>How can I participate?</h2>
 
 			<div class="sect-menu shadow">
-				<a href="#how-apache">Apache</a> | <a href="#how-iis6">IIS6</a> | <a href="#how-iis7">IIS7</a> | <a href="#how-virtuoso">Virtuoso</a> | <a href="#how-expressJS">ExpressJS</a> | <a href="#how-php">PHP</a> | <a href="#how-cgi">CGI Scripts</a> | <a href="#how-asp.net">ASP.NET</a> | <a href="#how-gae">App Engine</a>
+				<a href="#how-apache">Apache</a> | <a href="#how-iis6">IIS6</a> | <a href="#how-iis7">IIS7</a> | <a href="#how-virtuoso">Virtuoso</a> | <a href="#how-expressJS">ExpressJS</a> | <a href="#how-php">PHP</a> | <a href="#how-cgi">CGI Scripts</a> | <a href="#how-asp.net">ASP.NET</a> | <a href="#how-gae">App Engine</a>| <a href="#how-cfml">CFML</a>
 			</div>
 
 			<p>
@@ -222,6 +222,20 @@ print "Access-Control-Allow-Origin: *"</pre>
   resp.getWriter().append(csvString);
 }
 			</pre>
+<a id="how-cfml"></a><h3>In CFML</h3>
+			<p>
+				Railo, Adobe ColdFusion and openBD
+			</p>
+			<pre class="code">
+				// script
+				header name="Access-Control-Allow-Origin"  value="*";
+				
+				<!--- Tag --->
+				<cfheader name="Access-Control-Allow-Origin"  value="*">
+			</pre>
+			<p class="note">
+				Note: as with all uses of the PHP <a href="http://php.net/manual/en/function.header.php">header function</a>, this must be before any output has been sent from the server.
+		 	</p>			
 			</p>
                         
                         <p>
